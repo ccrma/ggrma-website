@@ -1,0 +1,51 @@
+.img-headshot {
+    margin: 1em;
+}
+
+.bg-dark .game-title {
+    color: white;
+}
+
+.game-title {
+    color: black;
+}
+
+.games-page-header {
+    color: white;
+}
+
+.game-div {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 1em 0;
+    gap: 1em;
+}
+
+
+.game-info {
+    width: 50%;
+    margin: 0.5em 0;
+}
+
+.bg-dark .game-description {
+    color: white;
+}
+
+.game-description {
+    color: black;
+    margin-bottom: 0.25em;
+}
+
+.game-image {
+    width: 50%;
+    margin: 0.5em 0;
+}
+
+.game-link {
+    color: #FFB44B;
+}
+
+.game-link:hover {
+    color: #5AD25A;
+}
