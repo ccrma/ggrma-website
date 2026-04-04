@@ -2,16 +2,37 @@
     text-align: center;
 }
 
-.btn-success {
+.game-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.game-section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    min-height: 100%;
+}
+
+.game-section .game-button {
+    margin: 0.5em 0;
+}
+
+.content-section .btn-success {
     margin: 0.5em;
 }
 
-.btn-warning {
+.content-section .btn-warning {
     margin: 0.5em;
 }
 
 .img-headshot {
     margin: 1em;
+}
+
+.game-header-image {
+    width: 100%;
 }
 
 .header-image {
@@ -28,6 +49,13 @@
 
 .games-page-header {
     color: white;
+    text-align: left;
+    margin: 1em 0;
+}
+
+.games-page-description {
+    color: white;
+    text-align: left;
 }
 
 .game-div {
