@@ -73,7 +73,8 @@ h6 {
   line-height: 45px;
 }
 
-.scroll-to-top:focus, .scroll-to-top:hover {
+.scroll-to-top:focus,
+.scroll-to-top:hover {
   color: white;
 }
 
@@ -111,6 +112,7 @@ h6 {
   .masthead {
     height: 100vh;
   }
+
   .masthead h1 {
     font-size: 5.5rem;
   }
@@ -158,7 +160,7 @@ h6 {
   text-decoration: none;
 }
 
-.sidebar-nav > .sidebar-brand {
+.sidebar-nav>.sidebar-brand {
   font-size: 1.2rem;
   background: rgba(100, 100, 128, .5);
   height: 80px;
@@ -168,11 +170,11 @@ h6 {
   padding-left: 15px;
 }
 
-.sidebar-nav > .sidebar-brand a {
+.sidebar-nav>.sidebar-brand a {
   color: #fff;
 }
 
-.sidebar-nav > .sidebar-brand a:hover {
+.sidebar-nav>.sidebar-brand a:hover {
   color: #fff;
   background: none;
 }
@@ -197,7 +199,8 @@ h6 {
   z-index: 999;
 }
 
-.menu-toggle:focus, .menu-toggle:hover {
+.menu-toggle:focus,
+.menu-toggle:hover {
   color: #fff;
 }
 
@@ -274,11 +277,13 @@ h6 {
     max-width: none;
     margin: 0;
   }
+
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
     -webkit-clip-path: inset(0px);
     clip-path: inset(0px);
   }
+
   .portfolio-item .caption .caption-content {
     -webkit-transition: opacity 0.25s;
     transition: opacity 0.25s;
@@ -286,15 +291,18 @@ h6 {
     margin-right: 5rem;
     margin-bottom: 5rem;
   }
+
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
+
   .portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
@@ -325,21 +333,15 @@ footer.footer .social-link:hover {
   text-decoration: none;
 }
 
-a {
-  color: #0080FF;
-}
-
-a:hover, a:focus, a:active {
-  color: #66CCFF;
-}
-
 .btn-primary {
   background-color: #1D809F !important;
   border-color: #1D809F !important;
   color: #fff !important;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   background-color: #155d74 !important;
   border-color: #155d74 !important;
 }
@@ -350,7 +352,9 @@ a:hover, a:focus, a:active {
   color: #fff !important;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
   background-color: #ba9106 !important;
   border-color: #ba9106 !important;
 }

@@ -1,5 +1,21 @@
+.content-section {
+    text-align: center;
+}
+
+.btn-success {
+    margin: 0.5em;
+}
+
+.btn-warning {
+    margin: 0.5em;
+}
+
 .img-headshot {
     margin: 1em;
+}
+
+.header-image {
+    width: 90%;
 }
 
 .bg-dark .game-title {
